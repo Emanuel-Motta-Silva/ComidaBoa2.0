@@ -2,6 +2,8 @@
 
 O restaurante Comida Boa é um projeto proposto, onde tivemos que realizar a criação de uma comanda digital, na qual era possível o cliente fazer seu pedido, por meio das opções fixas e das opções diárias e esses dados são implementados em um banco de dados em nuvem.
 
+Atualizaçao do Applicativo ComidaBoa, utilizando conceitos de TableView e UICollectioView.
+
 ## Enunciado
 
 1.  Um restaurante contratou o serviço de uma empresa de TI para a criação de um aplicativo de Comanda Digital, e vocês foram a equipe designada para produzir esse app.
