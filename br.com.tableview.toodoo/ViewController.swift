@@ -28,12 +28,12 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
         //Adicionando elemento ao array
         menus.append(Menu(nome: "Carne Assada", descricao: "Carne bovina em tres opções.", opcoes: ["Bem Passada", "Ao Ponto", "Mal Passada"], preco: 17.90))
-        menus.append(Menu(nome: "Frango Caipira", descricao: "Frango bem aromatico e delicioso", opcoes: ["Frango Assado","Frango Frito"], preco: 20.00))
-        menus.append(Menu(nome: "Arroz", descricao: "Arroz caseiro feito na hora", opcoes: ["Integral", "Branco"],preco: 15.00))
-        menus.append(Menu(nome: "Feijão", descricao: "Feijão delicioso e suculento", opcoes: ["Tutu", "Feijoada", "Carioca"], preco: 8.00))
-        menus.append(Menu(nome: "Salada", descricao: "Salada fresca e totalmente organica", opcoes: ["Rucula", "Alface", "Tomate", "Batata"], preco: 11.50))
-        menus.append(Menu(nome: "Rocambole", descricao: "Delicioso e quentinho para voce", opcoes: ["Presunto e queijo", "Carne",], preco: 27.90))
-        menus.append(Menu(nome: "Batata Frita", descricao: "Crocante e salpicada com sal", opcoes: ["Com Bacon", "Com Cheddar",], preco: 25.00))
+        menus.append(Menu(nome: "Frango Caipira", descricao: "Frango bem aromatico e delicioso.", opcoes: ["Frango Assado","Frango Frito"], preco: 20.00))
+        menus.append(Menu(nome: "Arroz", descricao: "Arroz caseiro feito na hora.", opcoes: ["Integral", "Branco"],preco: 15.00))
+        menus.append(Menu(nome: "Feijão", descricao: "Feijão delicioso e suculento.", opcoes: ["Tutu", "Feijoada", "Carioca"], preco: 8.00))
+        menus.append(Menu(nome: "Salada", descricao: "Salada fresca e totalmente organica.", opcoes: ["Rucula", "Alface", "Tomate", "Batata"], preco: 11.50))
+        menus.append(Menu(nome: "Rocambole", descricao: "Delicioso e quentinho para voce.", opcoes: ["Presunto e queijo", "Carne",], preco: 27.90))
+        menus.append(Menu(nome: "Batata Frita", descricao: "Crocante e salpicada com sal.", opcoes: ["Com Bacon", "Com Cheddar",], preco: 25.00))
         
         setupLayout()
     }
