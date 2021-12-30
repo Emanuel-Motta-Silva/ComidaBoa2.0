@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		313CC7989C8939B38D43D0B3 /* Pods_br_com_tableview_toodoo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 521A27ABCACC18928AA2F711 /* Pods_br_com_tableview_toodoo.framework */; };
+		89277109277BE704003EB146 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89277108277BE704003EB146 /* AppDelegate.swift */; };
+		8927710B277BE704003EB146 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8927710A277BE704003EB146 /* SceneDelegate.swift */; };
+		8927710D277BE704003EB146 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8927710C277BE704003EB146 /* ViewController.swift */; };
+		89277110277BE704003EB146 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8927710E277BE704003EB146 /* Main.storyboard */; };
+		89277112277BE704003EB146 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89277111277BE704003EB146 /* Assets.xcassets */; };
+		89277115277BE704003EB146 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89277113277BE704003EB146 /* LaunchScreen.storyboard */; };
+		899F9FF3277C8E530068F4E7 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F9FF2277C8E530068F4E7 /* Menu.swift */; };
+		899F9FF6277C93CF0068F4E7 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 899F9FF5277C93CF0068F4E7 /* MenuTableViewCell.swift */; };
+		A1B18BC5277DE3890019DD39 /* MenuOptionCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B18BC4277DE3890019DD39 /* MenuOptionCollectionViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		476C6BD19F2079DD98B214E4 /* Pods-br.com.tableview.toodoo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-br.com.tableview.toodoo.release.xcconfig"; path = "Target Support Files/Pods-br.com.tableview.toodoo/Pods-br.com.tableview.toodoo.release.xcconfig"; sourceTree = "<group>"; };
+		521A27ABCACC18928AA2F711 /* Pods_br_com_tableview_toodoo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_br_com_tableview_toodoo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89277105277BE704003EB146 /* br.com.tableview.toodoo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = br.com.tableview.toodoo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		89277108277BE704003EB146 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8927710A277BE704003EB146 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8927710C277BE704003EB146 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8927710F277BE704003EB146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		89277111277BE704003EB146 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		89277114277BE704003EB146 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		89277116277BE704003EB146 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		899F9FF2277C8E530068F4E7 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		899F9FF5277C93CF0068F4E7 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		89FBA77FFD3CCF81E88584C0 /* Pods-br.com.tableview.toodoo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-br.com.tableview.toodoo.debug.xcconfig"; path = "Target Support Files/Pods-br.com.tableview.toodoo/Pods-br.com.tableview.toodoo.debug.xcconfig"; sourceTree = "<group>"; };
+		A1B18BC4277DE3890019DD39 /* MenuOptionCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuOptionCollectionViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		89277102277BE704003EB146 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				313CC7989C8939B38D43D0B3 /* Pods_br_com_tableview_toodoo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		61E88E01A64975F05B0C3A1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89FBA77FFD3CCF81E88584C0 /* Pods-br.com.tableview.toodoo.debug.xcconfig */,
+				476C6BD19F2079DD98B214E4 /* Pods-br.com.tableview.toodoo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		661BBDE05C5F2D6C58C176E3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				521A27ABCACC18928AA2F711 /* Pods_br_com_tableview_toodoo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		892770FC277BE704003EB146 = {
+			isa = PBXGroup;
+			children = (
+				89277107277BE704003EB146 /* br.com.tableview.toodoo */,
+				89277106277BE704003EB146 /* Products */,
+				61E88E01A64975F05B0C3A1D /* Pods */,
+				661BBDE05C5F2D6C58C176E3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		89277106277BE704003EB146 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				89277105277BE704003EB146 /* br.com.tableview.toodoo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		89277107277BE704003EB146 /* br.com.tableview.toodoo */ = {
+			isa = PBXGroup;
+			children = (
+				899F9FF4277C93A50068F4E7 /* Cells */,
+				899F9FF1277C8E390068F4E7 /* Models */,
+				89277108277BE704003EB146 /* AppDelegate.swift */,
+				8927710A277BE704003EB146 /* SceneDelegate.swift */,
+				8927710C277BE704003EB146 /* ViewController.swift */,
+				8927710E277BE704003EB146 /* Main.storyboard */,
+				89277111277BE704003EB146 /* Assets.xcassets */,
+				89277113277BE704003EB146 /* LaunchScreen.storyboard */,
+				89277116277BE704003EB146 /* Info.plist */,
+			);
+			path = br.com.tableview.toodoo;
+			sourceTree = "<group>";
+		};
+		899F9FF1277C8E390068F4E7 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				899F9FF2277C8E530068F4E7 /* Menu.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		899F9FF4277C93A50068F4E7 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				899F9FF5277C93CF0068F4E7 /* MenuTableViewCell.swift */,
+				A1B18BC4277DE3890019DD39 /* MenuOptionCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		89277104277BE704003EB146 /* br.com.tableview.toodoo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 89277119277BE704003EB146 /* Build configuration list for PBXNativeTarget "br.com.tableview.toodoo" */;
+			buildPhases = (
+				E4994859DD69E69BFB8173AC /* [CP] Check Pods Manifest.lock */,
+				89277101277BE704003EB146 /* Sources */,
+				89277102277BE704003EB146 /* Frameworks */,
+				89277103277BE704003EB146 /* Resources */,
+				D720F24083E607B2BF044C35 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = br.com.tableview.toodoo;
+			productName = br.com.tableview.toodoo;
+			productReference = 89277105277BE704003EB146 /* br.com.tableview.toodoo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		892770FD277BE704003EB146 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					89277104277BE704003EB146 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 89277100277BE704003EB146 /* Build configuration list for PBXProject "br.com.tableview.toodoo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 892770FC277BE704003EB146;
+			productRefGroup = 89277106277BE704003EB146 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				89277104277BE704003EB146 /* br.com.tableview.toodoo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		89277103277BE704003EB146 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				89277115277BE704003EB146 /* LaunchScreen.storyboard in Resources */,
+				89277112277BE704003EB146 /* Assets.xcassets in Resources */,
+				89277110277BE704003EB146 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D720F24083E607B2BF044C35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-br.com.tableview.toodoo/Pods-br.com.tableview.toodoo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-br.com.tableview.toodoo/Pods-br.com.tableview.toodoo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-br.com.tableview.toodoo/Pods-br.com.tableview.toodoo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E4994859DD69E69BFB8173AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-br.com.tableview.toodoo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		89277101277BE704003EB146 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8927710D277BE704003EB146 /* ViewController.swift in Sources */,
+				89277109277BE704003EB146 /* AppDelegate.swift in Sources */,
+				A1B18BC5277DE3890019DD39 /* MenuOptionCollectionViewCell.swift in Sources */,
+				899F9FF3277C8E530068F4E7 /* Menu.swift in Sources */,
+				8927710B277BE704003EB146 /* SceneDelegate.swift in Sources */,
+				899F9FF6277C93CF0068F4E7 /* MenuTableViewCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8927710E277BE704003EB146 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8927710F277BE704003EB146 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		89277113277BE704003EB146 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				89277114277BE704003EB146 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		89277117277BE704003EB146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		89277118277BE704003EB146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8927711A277BE704003EB146 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89FBA77FFD3CCF81E88584C0 /* Pods-br.com.tableview.toodoo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = br.com.tableview.toodoo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ComidaBoa2.0;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Toodoo.br-com-tableview-toodoo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		8927711B277BE704003EB146 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 476C6BD19F2079DD98B214E4 /* Pods-br.com.tableview.toodoo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = br.com.tableview.toodoo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ComidaBoa2.0;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Toodoo.br-com-tableview-toodoo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		89277100277BE704003EB146 /* Build configuration list for PBXProject "br.com.tableview.toodoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				89277117277BE704003EB146 /* Debug */,
+				89277118277BE704003EB146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		89277119277BE704003EB146 /* Build configuration list for PBXNativeTarget "br.com.tableview.toodoo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8927711A277BE704003EB146 /* Debug */,
+				8927711B277BE704003EB146 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 892770FD277BE704003EB146 /* Project object */;
+}

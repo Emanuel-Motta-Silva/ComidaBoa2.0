@@ -1,0 +1,23 @@
+{
+  "images" : [
+    {
+      "filename" : "carne-grelhada-churrasco-1521829328590_v2_1254x836.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "filename" : "carne-grelhada-churrasco-1521829328590_v2_1254x836@2x.jpg",
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "filename" : "carne-grelhada-churrasco-1521829328590_v2_1254x836@3x.jpg",
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

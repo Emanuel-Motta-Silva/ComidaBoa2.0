@@ -1,0 +1,6 @@
+framework module Pods_br_com_tableview_toodoo {
+  umbrella header "Pods-br.com.tableview.toodoo-umbrella.h"
+
+  export *
+  module * { export * }
+}
